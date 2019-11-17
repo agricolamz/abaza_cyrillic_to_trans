@@ -1,4 +1,4 @@
-﻿; This file was created by George Moroz on 19.08.2019.
+; This file was created by George Moroz on 19.08.2019.
 ;   Conversion Type = Legacy_to_from_Unicode
 ;   Left-hand side font = Arial;12
 ;   Right-hand side font = Charis SIL Compact;12
@@ -8,7 +8,7 @@
 
 EncodingName            "abaz"
 DescriptiveName         "abaza_trans"
-Version                 "2"
+Version                 "3"
 Contact                 "agricolamz@gmail.com"
 
 pass(Unicode)
@@ -16,6 +16,21 @@ pass(Unicode)
 "’" <> "'"
 "'" <> "'"
 "а" <> "a"
+"ауа" <> "awa"
+"ауА" <> "awá"
+"Ауа" <> "áwa"
+"ыуа" <> "əwa"
+"ыуА" <> "əwá"
+"Ыуа" <> "ə́wa"
+"ауы" <> "awə"
+"ауЫ" <> "awə́"
+"Ауы" <> "áwə"
+"ыуи" <> "əwəj"
+"ыуИ" <> "əwə́j"
+"Ыуи" <> "ə́wəj"
+"ауи" <> "awəj"
+"ауИ" <> "awə́j"
+"Ауи" <> "áwəj"
 "А" <> "á"
 "б" <> "b"
 "Б" <> "b"
@@ -246,6 +261,7 @@ pass(Unicode)
 "тI" <> "ṭ"
 "ТI" <> "ṭ"
 "у" <> "əw"
+" у" <> " w"
 "У" <> "ə́w"
 "ф" <> "f"
 "Ф" <> "f"
