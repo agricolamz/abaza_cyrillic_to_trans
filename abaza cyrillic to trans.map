@@ -1,4 +1,4 @@
-﻿; This file was created by George Moroz on 19.08.2019.
+﻿; This file was created by George Moroz on 23.07.2020  .
 ;   Conversion Type = Legacy_to_from_Unicode
 ;   Left-hand side font = Arial;12
 ;   Right-hand side font = Charis SIL Compact;12
@@ -8,7 +8,7 @@
 
 EncodingName            "abaz"
 DescriptiveName         "abaza_trans"
-Version                 "2"
+Version                 "3"
 Contact                 "agricolamz@gmail.com"
 
 pass(Unicode)
@@ -18,15 +18,15 @@ UniClass [pnct] = ( U+2028 U+2029 U+0085 U+000D U+000A U+0009 U+0020 U+0021 U+00
 "’" <> "'"
 "'" <> "'"
 "а" <> "a"
-"уа" / ( # | [pnct] ) _ <> "wa"
-"уА" / ( # | [pnct] ) _ <> "wá"
-"уы" / ( # | [pnct] ) _ <> "wə"
-"уЫ" / ( # | [pnct] ) _ <> "wə́"
+"уа"  <> "wa"
+"уА"  <> "wá"
+"уы" <> "wə"
+"уЫ"  <> "wə́"
 "ау" <> "aw"
 "Ау" <> "áw"
-"ыу" / ( # | [pnct] ) _ <> "əw"
-"Ыу" / ( # | [pnct] ) _ <> "ə́w"
-"ыУ" / ( # | [pnct] ) _ <> "əwə́"
+"ыу"  <> "əw"
+"Ыу"  <> "ə́w"
+"ыУ"  <> "əwə́"
 "аУ" <> "awə́"
 "ауа" <> "awa"
 "ауА" <> "awá"
@@ -131,6 +131,8 @@ UniClass [pnct] = ( U+2028 U+2029 U+0085 U+000D U+000A U+0009 U+0020 U+0021 U+00
 "З" <> "z"
 "и" <> "əj"
 "И" <> "ə́j"
+"и" / ( # | [pnct] ) _ <> "jə"
+"И" / ( # | [pnct] ) _ <> "jə́"
 "й" <> "j"
 "Й" <> "j"
 "к" <> "k"
